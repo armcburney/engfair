@@ -1,2 +1,19 @@
 en:
-  hello: "Hello world"
+  meta:
+    author: Waterloo Engineering Society
+    description: "Waterloo Engineering Society will be holding this year's EngFair on November 9th, 2017 from 11:00 AM to 2:00 PM in the Sedra Student Design Center."
+    keywords: Waterloo, Engineering, Waterloo Engineering Society, Career Fair, EngFair
+    title: Waterloo Engineering Society Career Fair
+    viewport: width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no
+
+  urls:
+    base: http://www.engcareerfair.com
+
+    links:
+      website: https://www.engsoc.uwaterloo.ca/
+      facebook: https://www.facebook.com/uwengsoc/
+      linkedin: https://www.linkedin.com/company-beta/16165438/
+      twitter: https://twitter.com/EngSoc
+
+    images:
+      logo: http://static.wixstatic.com/media/fd4609_dad8dcfb6fa74ab9b2ce423291a367ef.png

@@ -9,6 +9,7 @@ end
 
 ruby "2.4.1"
 
+gem "dotenv-rails", require: "dotenv/rails-now"
 gem "jbuilder", "~> 2.5"
 gem "pg", "~> 0.21.0"
 gem "puma", "~> 3.0"
@@ -20,7 +21,6 @@ gem "vital"
 
 group :development, :test do
   gem "byebug", platform: :mri
-  gem "dotenv-rails"
   gem "foreman"
   gem "rspec-rails", "~> 3.5"
 end

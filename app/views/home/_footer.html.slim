@@ -1,3 +1,41 @@
 .row.footer
   .section
-    p Hosted by, Waterloo Engineering Society
+    .col-1-3
+      p
+        small University of Waterloo Engineering Society
+      hr
+      p
+        small
+          | CPH 1327, 200 University Avenue West<br>
+            Waterloo, Ontario, Canada N2L 3G1<br>
+            519-888-4567 x32323
+
+    .col-1-3.center
+      = link_to t("urls.links.website"), class: "logo" do
+        = image_tag "engsoc_grey.png", size: 200
+
+    .col-1-3.right
+      p
+        small careerfair@engsoc.uwaterloo.ca
+      hr
+      .links
+        .circle
+          = link_to I18n.t("urls.links.facebook")
+            = image_tag("social/fb.png", class: "icon")
+        .circle
+          = link_to I18n.t("urls.links.twitter")
+            = image_tag("social/tw.png", class: "icon")
+        .circle
+          = link_to I18n.t("urls.links.linkedin")
+            = image_tag("social/li.png", class: "icon")
+        .circle
+          = link_to I18n.t("urls.links.instagram")
+            = image_tag("social/ig.png", class: "icon")
+        .circle
+          = link_to I18n.t("urls.links.flickr")
+            = image_tag("social/fr.png", class: "icon")
+
+.row.footer.dark
+  .section.center
+    p
+      small Copyright © 2008&mdash;2017 UW Engineering Society

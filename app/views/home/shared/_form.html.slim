@@ -1,0 +1,31 @@
+.full-width-forms
+  .center
+    h4
+      | Please don’t hesitate to reach out if you have any questions or require
+        further information.
+
+  = form_for :mail do |f|
+    .box.no-first-last.bg-white
+      p
+        label
+          small Enter your name
+          = f.text_field :name, placeholder: "Your name"
+      p
+        label
+          small Enter your email
+          = f.text_field :email, placeholder: "your@email.com"
+      p
+        label
+          small Enter your company's name
+          = f.text_field :name, placeholder: "Your company name"
+      p
+        label
+          small Enter your message
+          = f.text_area :message, placeholder: "Your message"
+      p
+        hr.small
+
+      .col-1-8.space
+      .col-3-4
+        = f.submit "Send email", class: "btn purple solid"
+      .col-1-8.space

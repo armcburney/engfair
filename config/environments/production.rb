@@ -16,7 +16,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Mailer settings
-  config.action_mailer.default_url_options = { host: "localhost", port: 3000 }
+  config.action_mailer.default_url_options = { host: "engcareerfair.com" }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_caching = false
   config.action_mailer.perform_deliveries = true

@@ -1,4 +1,7 @@
 en:
+  general:
+    email-success: "Thank you for your interest! Your email has been sent to our team, and we will respond to your message shortly."
+
   meta:
     author: Waterloo Engineering Society
     description: "Waterloo Engineering Society will be holding this year's EngFair on November 9th, 2017 from 11:00 AM to 2:00 PM in the Sedra Student Design Center."

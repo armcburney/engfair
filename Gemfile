@@ -17,6 +17,7 @@ gem "rails", "~> 5.0.2"
 gem "sass-rails", "~> 5.0"
 gem "slim-rails", "~> 3.1"
 gem "uglifier", ">= 1.3.0"
+gem "validates_email_format_of"
 gem "vital"
 
 group :development, :test do

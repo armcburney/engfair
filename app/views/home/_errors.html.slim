@@ -1,0 +1,7 @@
+- if @email.errors.any?
+  .row.notice
+    .section.center
+      .notice-message
+        .notice-text
+          h2 Email not sent.
+          p = @email.errors.full_messages.join(", ")

@@ -181,6 +181,8 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.3.0)
+    validates_email_format_of (1.6.3)
+      i18n
     vital (2.2.1)
       sass (>= 3.4)
     web-console (3.5.1)
@@ -212,6 +214,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   uglifier (>= 1.3.0)
+  validates_email_format_of
   vital
   web-console (>= 3.3.0)
 

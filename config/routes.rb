@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   get  "home/index"
-  post "home/index", to: "home#mail"
+  post "", to: "home#mail"
 
   root "home#index"
 end

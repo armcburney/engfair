@@ -11,6 +11,7 @@ ruby "2.4.1"
 
 gem "dotenv-rails", require: "dotenv/rails-now"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails"
 gem "pg", "~> 0.21.0"
 gem "puma", "~> 3.0"
 gem "rails", "~> 5.0.2"

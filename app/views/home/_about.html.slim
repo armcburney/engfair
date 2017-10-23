@@ -1,50 +1,38 @@
-#about.row.center.bg-white
+#about.row.center.padding-bottom
   .section.narrow
-    h1 About
+    h1 What's EngFair?
     hr.small
     hr
     p
       | The Engineering Society is organizing its 7th annual Fall Career fair:
         EngFair &mdash; a career fair intended to provide engineering students
         seeking full-time employment an opportunity to interact directly with
-        potential employers
-    p
-      | The employee registration fee for this event is
-        <b>$150</b>. This fee includes a booth at the career fair, parking,
-        lunch, refreshments, and the opportunity to talk to fourth-year
-        engineering students with two years worth of industry experience,
-        looking for full-time employment
+        employers
     hr
 
-.row.photo-collage.bg-white
-  .section.no-padding-top
-    h2.center Past Events
-    hr.small
+  .section.padded
+    .col-1-3.black
+      = image_tag "icons/handshake.png", size: 50
+      .gray.icon-people-alt
+        h3.no-margin-top Connect
+      p
+        small
+          | Connect with a diverse set of employers from numerous locations
+            looking for engineering students in various disciplines
 
-    .boxed-text
-      / Row 1
-      .boxed-text-outer.col-1-3.bg-06
-        .boxed-text-content
-      .boxed-text-outer.col-2-3.bg-01
-        .boxed-text-content
+    .col-1-3.black
+      = image_tag "icons/cv.png", size: 50
+      .gray.icon-people-alt
+        h3.no-margin-top Apply
+      p
+        small
+          | Bring your r&eacute;sum&eacute; and CV and apply to any of the eight
+            companies attending the event, looking for engineering talent
 
-      / Row 2
-      .boxed-text-outer.col-2-3.bg-03
-        .boxed-text-content
-      .boxed-text-outer.col-1-3.bg-05
-        .boxed-text-content
-
-      / Row 3
-      .boxed-text-outer.col-1-2.bg-04
-        .boxed-text-content
-      .boxed-text-outer.col-1-2.bg-02
-        .boxed-text-content
-
-.row.center.bg-white.padding-bottom
-  .section.narrow
-    hr
-    = link_to "https://www.engsoc.uwaterloo.ca/event-calendar/2017-11/"
-      h3
-        | This year's EngFair fair will take place on <b>November 9th, from
-          11:00 AM to 2:00 PM</b>
-    hr
+    .col-1-3.black
+      = image_tag "icons/info.png", size: 50
+      .gray.icon-people-alt
+        h3.no-margin-top Network
+      p
+        small
+          | Network!

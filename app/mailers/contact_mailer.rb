@@ -4,7 +4,6 @@ class ContactMailer < ApplicationMailer
   def email(args)
     @name    = args[:name]
     @email   = args[:email]
-    @company = args[:company]
     @body    = args[:message]
 
     mail(

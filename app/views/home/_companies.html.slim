@@ -4,51 +4,17 @@
     hr.small
 
   .section
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 = link_to "ON Semiconductor", "http://www.onsemi.com/PowerSolutions/home.do"
-        h4
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 Magnet Forensics
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 RWDI
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 Kik Interactive
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 Read Jones Christoffersen Ltd
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 IPEX Group of Companies
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 Algoma
-        h4 Location
-        p
-    .col-1-4
-      .feed-card
-        img src="https://unsplash.it/1000/800/?image=731"
-        h3 Klenzoid Canada Inc.
-        h4 Location
-        p
+    = render "home/companies/kik"
+    = render "home/companies/rwdi"
+
+  .section
+    = render "home/companies/klenzoid"
+    = render "home/companies/algoma"
+
+  .section
+    = render "home/companies/on"
+    = render "home/companies/ipex"
+
+  .section
+    = render "home/companies/magnet"
+    = render "home/companies/read"

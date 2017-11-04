@@ -1,0 +1,22 @@
+.col-1-2
+  .feed-card
+    .image-wrapper
+      = link_to url do
+        - if defined?(full_width) && full_width
+          = image_tag image_src, class: "full-width"
+        - else
+          = image_tag image_src
+
+    h3
+      b = name
+    h4 = location
+    hr
+    p = description
+
+    - if defined? roles
+      hr
+      b Engineering Roles:
+      p == roles
+
+    hr
+    i Looking for: #{disciplines}
